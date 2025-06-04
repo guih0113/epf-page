@@ -1,11 +1,13 @@
 import Image from "next/image";
-import { Button } from "../../ui/header/button";
-import ListItem from "@/ui/header/listItem";
+import { Button } from "./ui/button";
+import ListItem from "@/components/header/ui/listItem";
+import Dropdown from "./ui/dropdown";
+
 
 export function Header() {
     return (
-        <header className="sticky w-full bg-[#12130F] py-8 px-12 rounded-xl flex justify-between items-center">
-            <div className="cursor-pointer">
+        <header className="sticky w-full bg-[#12130F] py-8 px-4 md:px-12 rounded-xl flex justify-center md:justify-between items-center container mx-auto">
+            <div className="cursor-pointer hidden md:flex">
                 <Image
                     src="/logo.png"
                     width={150}
@@ -27,6 +29,10 @@ export function Header() {
             <div className="hidden xl:flex space-x-6">
                 <Button text="Log in"/>
                 <Button text="Cadastre-se"/>
+            </div>
+
+            <div className="xl:hidden flex items-center justify-center">
+                <Dropdown/>
             </div>
         </header>
     );
