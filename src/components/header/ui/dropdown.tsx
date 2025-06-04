@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../../ui/dropdown-menu";
 import { AlignJustify } from 'lucide-react'
+import { Button } from "./button";
 
 export default function Dropdown() {
     return (
@@ -36,6 +37,11 @@ export default function Dropdown() {
                     <DropdownMenuItem>
                         Contato
                     </DropdownMenuItem>
+
+                    <div className="flex flex-col space-y-4 mt-4 mb-2">
+                        <Button text="Log in"/>
+                        <Button text="Cadastre-se"/>
+                    </div>
                 </DropdownMenuGroup>
             </DropdownMenuContent>
         </DropdownMenu>
