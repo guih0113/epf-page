@@ -6,7 +6,7 @@ import Dropdown from "./ui/dropdown";
 
 export function Header() {
     return (
-        <header className="sticky w-full bg-[#12130F] py-8 px-4 md:px-12 rounded-xl flex justify-center md:justify-between items-center container mx-auto">
+        <header className="md:sticky w-[15vw] h-[15vw] md:w-full md:h-auto bg-[#12130F] md:px-12 md:py-8 rounded-full md:rounded-xl flex justify-center md:justify-between items-center container mx-auto">
             <div className="cursor-pointer hidden md:flex">
                 <Image
                     src="/logo.png"
