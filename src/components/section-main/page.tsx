@@ -4,7 +4,7 @@ export default function SectionMain() {
     return (
         <section className="w-full flex justify-center items-center">
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-evenly w-full max-w-screen-xl mx-auto p-4">
-                <div className="min-w-[400px] w-full lg:w-1/2 lg:ml-[-110px] text-center">
+                <div className="min-w-[400px] w-full lg:w-1/2 mr-11 lg:ml-[-110px] text-center">
                     <Image
                         src="/smartphone.png"
                         width={700}
