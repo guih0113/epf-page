@@ -7,6 +7,7 @@ export default function Home() {
       <div className="py-12 px-2 md:px-8 2xl:py-24 2xl:px-56">
         <Header />
         <SectionMain />
+        <SectionMain />
       </div>
     </div>
   );
