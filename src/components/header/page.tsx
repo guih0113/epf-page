@@ -8,7 +8,7 @@ export function Header() {
     return (
         <header className="md:sticky md:top-12 z-10 w-[15vw] h-[15vw] md:w-full md:h-auto bg-[#12130F] md:px-12 md:py-8 rounded-full md:rounded-xl flex justify-center md:justify-between items-center container mx-auto">
             <div className="cursor-pointer hidden md:flex">
-                <a href="#">
+                <a href="#home">
                     <Image
                         src="/logo.png"
                         width={150}
@@ -21,8 +21,8 @@ export function Header() {
 
             <nav className="hidden xl:flex">
                 <ul className="text-white space-x-6 text-md xl:text-lg font-semibold flex">
-                    <ListItem href="#" text="Home" />
-                    <ListItem href="#" text="Quem Somos" />
+                    <ListItem href="#home" text="Home" />
+                    <ListItem href="#quem-somos" text="Quem Somos" />
                     <ListItem href="#" text="Cursos" />
                     <ListItem href="#" text="Contato" />
                 </ul>

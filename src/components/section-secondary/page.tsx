@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function SectionSecondary() {
     return (
-        <section className="w-full flex justify-center items-center mt-24">
+        <section className="w-full flex justify-center items-center mt-24" id="quem-somos">
             <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-evenly w-full mx-auto py-4 px-8">
                 <div className="w-full lg:w-xl" data-aos="fade-down">   
                     <h1 className="text-white font-bold text-3xl text-center sm:text-4xl md:text-5xl mb-4">
