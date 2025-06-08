@@ -6,15 +6,17 @@ import Dropdown from "./ui/dropdown";
 
 export function Header() {
     return (
-        <header className="md:sticky w-[15vw] h-[15vw] md:w-full md:h-auto bg-[#12130F] md:px-12 md:py-8 rounded-full md:rounded-xl flex justify-center md:justify-between items-center container mx-auto">
+        <header className="md:sticky md:top-12 z-10 w-[15vw] h-[15vw] md:w-full md:h-auto bg-[#12130F] md:px-12 md:py-8 rounded-full md:rounded-xl flex justify-center md:justify-between items-center container mx-auto">
             <div className="cursor-pointer hidden md:flex">
-                <Image
-                    src="/logo.png"
-                    width={150}
-                    height={150}
-                    alt="Logo do Projeto"
-                    quality={100}
-                />
+                <a href="#">
+                    <Image
+                        src="/logo.png"
+                        width={150}
+                        height={150}
+                        alt="Logo do Projeto"
+                        quality={100}
+                    />
+                </a>
             </div>
 
             <nav className="hidden xl:flex">

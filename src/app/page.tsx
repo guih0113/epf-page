@@ -1,5 +1,6 @@
 import { Header } from "@/components/header/page";
 import SectionMain from "@/components/section-main/page";
+import { SectionSecondary } from "@/components/section-secondary/page";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <div className="py-12 px-2 md:px-8 2xl:py-24 2xl:px-56">
         <Header />
         <SectionMain />
-        <SectionMain />
+        <SectionSecondary />
       </div>
     </div>
   );
