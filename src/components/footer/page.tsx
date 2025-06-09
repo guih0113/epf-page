@@ -16,7 +16,7 @@ export function Footer() {
                 </ul>
             </nav>
 
-            <div className='bg-[#0dff2598] w-full mt-4 absolute bottom-0 left-0 '>
+            <div className='bg-[#00DD15] w-full mt-4 absolute bottom-0 left-0 '>
                 <p className='text-white text-center py-2'>© Estude para o Futuro | 2025</p>
             </div>
         </footer>
