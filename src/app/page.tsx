@@ -11,6 +11,7 @@ export default function Home() {
         <SectionMain />
         <SectionSecondary />
         <Carousel />
+        <SectionSecondary />
       </div>
     </div>
   );
