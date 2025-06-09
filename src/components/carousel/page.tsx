@@ -46,7 +46,7 @@ export function Carousel() {
     }, [updateCarousel]); // Agora updateCarousel está na lista de dependências
 
     return (
-        <section className="w-full mt-28" id="cursos">
+        <section className="w-full mt-28" id="cursos" data-aos="zoom-in">
             <div className='max-w-screen flex flex-col justify-center items-center'>
                 <h2 className="text-white font-bold text-3xl text-center sm:text-4xl md:text-5xl mb-12">Principais cursos:</h2>
                 <div className="flex items-center gap-2 xl:gap-6">

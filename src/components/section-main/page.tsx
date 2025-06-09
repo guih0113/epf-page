@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SectionMain() {
     return (
         <section className="w-full flex justify-center items-center">
-            <div className="flex flex-col justify-center items-center lg:flex-row lg:items-start lg:justify-evenly w-full mx-auto py-4 px-8">
+            <div className="flex flex-col justify-center items-center lg:flex-row  lg:justify-evenly w-full mx-auto py-4 px-8">
                 <div className="w-full lg:w-1/2 mr-8 md:mr-16 lg:ml-[-110px] flex justify-center" data-aos="fade-right">
                     <Image
                         src="/smartphone.png"
@@ -14,7 +14,7 @@ export default function SectionMain() {
                     />
                 </div>
 
-                <div className="w-full lg:w-1/2 text-center lg:text-right lg:mt-36" data-aos="fade-up">
+                <div className="w-full text-center lg:w-1/2 lg:text-right lg:mt-24" data-aos="fade-up">
                     <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl mb-4">
                         Construa seu futuro <br /> financeiro com <br /> conhecimento e <br /> planejamento
                     </h1>

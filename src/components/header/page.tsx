@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
-import ListItem from "@/components/header/ui/listItem";
+import { ListItem } from '@/components/ui/listItem';
 import Dropdown from "./ui/dropdown";
 
 

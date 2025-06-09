@@ -3,7 +3,7 @@ type ListItemProps = {
     text: string
 }
 
-export default function ListItem({ href, text }: ListItemProps) {
+export function ListItem({ href, text }: ListItemProps) {
     return (
         <li>
             <a 
