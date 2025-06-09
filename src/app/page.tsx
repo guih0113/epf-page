@@ -1,3 +1,4 @@
+import { Carousel } from "@/components/carousel/page";
 import { Header } from "@/components/header/page";
 import SectionMain from "@/components/section-main/page";
 import { SectionSecondary } from "@/components/section-secondary/page";
@@ -9,6 +10,7 @@ export default function Home() {
         <Header />
         <SectionMain />
         <SectionSecondary />
+        <Carousel />
       </div>
     </div>
   );

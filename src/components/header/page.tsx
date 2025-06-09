@@ -23,7 +23,7 @@ export function Header() {
                 <ul className="text-white space-x-6 text-md xl:text-lg font-semibold flex">
                     <ListItem href="#home" text="Home" />
                     <ListItem href="#quem-somos" text="Quem Somos" />
-                    <ListItem href="#" text="Cursos" />
+                    <ListItem href="#cursos" text="Cursos" />
                     <ListItem href="#" text="Contato" />
                 </ul>
             </nav>
