@@ -1,4 +1,4 @@
-import SocialIcons from './social-icons';
+import SocialIcons from './ui/social-icons';
 import { ListItem } from '@/components/ui/listItem';
 
 export function Footer() {

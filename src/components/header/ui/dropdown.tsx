@@ -26,16 +26,16 @@ export default function Dropdown() {
 
                 <DropdownMenuGroup className="flex flex-col items-center">
                     <DropdownMenuItem>
-                        Home
+                        <a href="#home">Home</a>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        Quem Somos
+                        <a href="#quem-somos">Quem somos</a>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        Cursos
+                        <a href="#cursos">Cursos</a>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        Contato
+                        <a href="#contato">Contato</a>
                     </DropdownMenuItem>
 
                     <div className="flex flex-col space-y-4 mt-4 mb-2">

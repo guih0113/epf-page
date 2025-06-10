@@ -24,7 +24,7 @@ export function Header() {
                     <ListItem href="#home" text="Home" />
                     <ListItem href="#quem-somos" text="Quem Somos" />
                     <ListItem href="#cursos" text="Cursos" />
-                    <ListItem href="#" text="Contato" />
+                    <ListItem href="#contato    " text="Contato" />
                 </ul>
             </nav>
 
